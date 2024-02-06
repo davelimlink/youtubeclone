@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <title> Uber Sign Up</title>
+  <style>
+    .request {
+      display: block;
+      color: black;
+      font-size: 30px;
+      font-family: arial;
+      
+    }
+    .pickup {
+      display: block;
+      padding-left: 10px;
+      height: 40px;
+      width: 290px;
+      border-radius: none;
+      border-width: 0px;
+      background-color: rgb(246, 246, 246);
+      margin-bottom: 3px;
+    }
+    .destination {
+     display: block;
+     padding-left: 10px;
+     height: 40px;
+      width: 290px;
+      border-radius: none;
+      border-width: 0px;
+      background-color: rgb(246, 246, 246);
+      margin-top: 6px;
+      margin-bottom: 10px;
+    }
+    .now {
+     display: inline-block;
+     background-color: black;
+     color: white;
+     height: 40px;
+     width: 117px;
+     border-width: 0px;
+     margin-top: 10px;
+    }
+    .now:hover {
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 1.5);
+      cursor: pointer;
+    }
+    .later {
+     display: inline-block;
+     height: 40px;
+     border-width: 0px;
+     width: 140px;
+     background-color: rgb(236, 236, 236);
+     margin-left: 5px;
+    }
+    .later:hover {
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 1.5);
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <p class="request">Request a ride now</p>
+    <input class="pickup" type="text" placeholder="Enter pickup location">
+    <input class="destination" type="text" placeholder="Enter destination">
+    <button class="now">Request now</button>
+    <button class="later">Schedule for later</button>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+.model {
+  font-size: 46px;
+  font-family: montserrat;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0;
+}
+.online {
+  font-size: 20px;
+  font-family: montserrat;
+  font-weight: 9;
+  text-align: center;
+  margin-top: 0;
+
+}
+.touchless:hover {
+  cursor: pointer;
+}
+.touchless {
+  font-style: underline;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>excersice thumbnails</title>
+  <style>
+    .thumb1 {
+      width: 200px;
+      border-radius: 10px;
+    }
+   .thumb2 {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: blue;
+   }
+  .thumb3 {
+  float: left;
+  margin-left: 125px;
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: blue;
+  }
+  .input1 {
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: 10px;
+    border-radius: 10px;
+    border-style:solid;
+    border-width: 1px;
+    position: absolute;
+    top: 355px;
+    left: 575px;
+    height: 50px;
+    width: 300px;
+    border-color: rgb(199, 194, 194);
+  }
+  .input2 {
+    box-shadow: 3px 3px 8px rgb(0, 0, 0, 0.15);
+    border-style: none;
+    border-width: 100px;
+    position: bottom;
+    width: 500px;
+    height: 40px;
+    border-radius: 190px;
+    padding-left: 20px;
+
+  }
+  .input2:hover {
+  background-color: rgb(150, 145, 145);
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.15);
+  opacity: 500px;
+  cursor:text;
+ }
+ .mail {
+  color: grey;
+  font-family: arial;
+  padding-bottom: 0px;
+ }
+ .input3 {
+  margin-top: 0px;
+  height: 25px;
+  width: 300px;
+ }
+ .by {
+  color: grey;
+  font-family: arial;
+  font-size: 13px;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  vertical-align: middle;
+  
+
+}
+.agree {
+  background-color: rgb(46, 89, 176);
+  color: rgb(217, 214, 214);
+  font-family: arial;
+  border: none;
+  font-weight: 1px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+  vertical-align: center;
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-top: 20px;
+  vertical-align: middle;
+}
+.agree:hover {
+  background-color: rgb(90, 133, 177);
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.15);
+  opacity: 500px;
+}
+
+  </style>
+
+  </head>
+  <body>
+    <img class="thumb1" src="thumbnails/thumbnail-1.webp">
+    <img class="thumb2" src="thumbnails/thumbnail-1.webp">
+    <img class="thumb3" src="thumbnails/thumbnail-1.webp">
+    <input class="input1" type="text" placeholder="Search">
+    <input class="input2" type="text" placeholder="Search Google or type a URL">
+    <p><span class="mail"> Email</p></span>
+    <input class="input3" type="text" placeholder="">
+    <p><span class="by"> By clicking Agree & Join, you agree to the Privacy Policy</span></p>
+    <p><span class="agree"><a href="https://twitter.com/" target="_blank"> Agree & Join</a></p></span>
+    
+
+  </body>
+</html>
